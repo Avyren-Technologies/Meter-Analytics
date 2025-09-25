@@ -180,7 +180,7 @@ export default function Dashboard({ initialData }: DashboardProps) {
           </div>
 
           {/* Charts Grid */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           {/* Voltage Chart */}
           <ChartCard
             title="Voltage"
@@ -211,7 +211,7 @@ export default function Dashboard({ initialData }: DashboardProps) {
         </div>
 
           {/* Second Row Charts */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
           {/* Temperature Chart */}
           <ChartCard
             title="Temperature"
